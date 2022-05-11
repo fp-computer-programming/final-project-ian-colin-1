@@ -37,4 +37,7 @@ for i in range(0, len(data)):
                  popup=popup,
                  ).add_to(m)
 
+# savesthe map, allowing it to be opened in a web browser
 m.save('map.html')
+
+m
